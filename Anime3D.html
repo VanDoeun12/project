@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime4i</title>
+    <link rel="stylesheet" href="/src/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/assets/image/icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img style="height: 100px;" src="/assets/image/anime4i.png" alt=""></div>
+            <ul class="links">
+                <li><a href="/src/HTML/index.html">Home</a></li>
+                <li><a href="/src/HTML/A-ZLists.html">A-Z Lists</a></li>
+                <li><a href="/src/HTML/Anime3D.html">Anime 3D</a></li>
+                <li><a href="">Schedule</a></li>
+            </ul>
+            <div><input class="input_search" type="text" id="search-item" placeholder="Search Anime" onkeyup="search()">
+            </div>
+            <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <!-- dropdown navbar -->
+        <div class="dropdown_menu">
+            <li><a href="/src/HTML/index.html">Home</a></li>
+            <li><a href="/src/HTML/A-ZLists.html">A-Z Lists</a></li>
+            <li><a href="/src/HTML/Anime3D.html">Anime 3D</a></li>
+            <li><a href="">Schedule</a></li>
+        </div>
+
+
+    </header>
+
+
+
+    <!-- Contane -->
+    <div class="homepage">
+        <div class="clipy">Anime 3D</div>
+    </div>
+    <div class="allcontance" id="anime-lists">
+        <div class="contane">
+            <div class="row">
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-legend-of-yang-chen.html"><img
+                                width="100%" height="100%" src="/assets/image/the-legend-of-yang-chen.jpg"
+                                alt="The Legend of Yang Chen"></a></div>
+                    <div class="row2">
+                        <p>The Legend of Yang Chen</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/the-magic-chef-of-ice-and-fire.html"><img
+                                width="100%" height="100%" src="/assets/image/the-magic-chef-of-ice-and-fire.jpg"
+                                alt="The Magic Chef of Ice and Fire"></a></div>
+                    <div class="row2">
+                        <p>The Magic Chef of Ice and Fire</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2022/11/stellar-transformation-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/Stellar-Transformation.jpg"
+                                alt="Stellar Transformation Season 5"></a></div>
+                    <div class="row2">
+                        <p>Stellar Transformation Season 5</p>
+                    </div>
+                    <div class="clip">completed</div>
+
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/12/swallowed-star-season-02.html"><img
+                                width="100%" height="100%" src="/assets/image/swallow-star-season-2.jpg"
+                                alt="Swallowed Star Season 02 Episode 27 to 85"></a></div>
+                    <div class="row2">
+                        <p>Swallowed Star Season 02 Episode 27 to 85</p>
+                    </div>
+
+                    <div class="clip">completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/peerless-martial-spirit.html"><img
+                                width="100%" height="100%" src="/assets/image/Peerless-Martial-Spirit.jpg"
+                                alt="Peerless Martial Spirit"></a></div>
+                    <div class="row2">
+                        <p>Peerless Martial Spirit</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/martial-master.html"><img width="100%"
+                                height="100%" src="/assets/image/Martial Master.jpg" alt="Martial Master"></a></div>
+                    <div class="row2">
+                        <p>Martial Master</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/ten-thousand-worlds.html"><img
+                                width="100%" height="100%" src="/assets/image/Ten Thousand Worlds.jpg"
+                                alt="Ten Thousand Worlds season 2"></a></div>
+                    <div class="row2">
+                        <p>Ten Thousand Worlds season 2</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/one-step-toward-freedom.html"><img
+                                width="100%" height="100%" src="/assets/image/Dubu Xiaoyao.jpg" alt="Dubu Xiaoyao"></a>
+                    </div>
+                    <div class="row2">
+                        <p>Dubu Xiaoyao</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/one-hundred-thousand-years-of-qi-refining.html"><img
+                                width="100%" height="100%"
+                                src="/assets/image/One Hundred Thousand Years of Qi Refining.jpg"
+                                alt="One Hundred Thousand Years of Qi Refining"></a></div>
+                    <div class="row2">
+                        <p>One Hundred Thousand Years of Qi Refining</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/against-the-sky-supreme.html"><img
+                                width="100%" height="100%" src="/assets/image/Againts-the-Sky-Supreme.jpg"
+                                alt="Against the Sky Supreme"></a></div>
+                    <div class="row2">
+                        <p>Against the Sky Supreme</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/jian-gu-season-01.html"><img width="100%"
+                                height="100%" src="/assets/image/Jiangu.jpeg" alt="Jiangu"></a></div>
+                    <div class="row2">
+                        <p>Jiangu</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/hundred-refining-soaring-record.html"><img
+                                width="100%" height="100%" src="/assets/image/Hundred refining soaring record.jpg"
+                                alt="Hundred refining soaring record"></a></div>
+                    <div class="row2">
+                        <p>Hundred refining soaring record</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/sword-saint-of-ten-realms.html"><img
+                                width="100%" height="100%" src="/assets/image/sword-saint-of-the-ten-realms.jpg"
+                                alt="Sword Saint of The Ten Realms"></a></div>
+                    <div class="row2">
+                        <p>Sword Saint of The Ten Realms</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/the-demon-hunter.html"><img width="100%"
+                                height="100%" src="/assets/image/the-demon-hunter-chang-yuan-tu.jpg"
+                                alt="The Demon Hunter"></a></div>
+                    <div class="row2">
+                        <p>The Demon Hunter</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-galaxy-emperor.html"><img
+                                width="100%" height="100%" src="/assets/image/the-galaxy-emperor.jpg"
+                                alt="The Galaxy Emperor"></a></div>
+                    <div class="row2">
+                        <p>The Galaxy Emperor</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/04/the-rich-god.html"><img width="100%"
+                                height="100%" src="/assets/image/The Rich God.jpg" alt="The Rich God"></a></div>
+                    <div class="row2">
+                        <p>The Rich God</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/legend-of-lotus-sword-fairy.html"><img
+                                width="100%" height="100%" src="/assets/image/legend-of-lotus-sword-fairy.jpg"
+                                alt="Legend Of Lotus Sword Fairy"></a></div>
+                    <div class="row2">
+                        <p>Legend Of Lotus Sword Fairy</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/the-westward-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/the-westward-season-5.jpg"
+                                alt="The Westward Season 5"></a></div>
+                    <div class="row2">
+                        <p>The Westward Season 5</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/tales-of-dark-river-anhe-zhuan.html"><img
+                                width="100%" height="100%" src="/assets/image/tales-of-dark-river-anhe-zhuan.jpg"
+                                alt="Tales Of Dark River"></a></div>
+                    <div class="row2">
+                        <p>Tales Of Dark River</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/shrouding-the-heavens.html"><img
+                                width="100%" height="100%" src="/assets/image/Shrouding The Heavens.jpg"
+                                alt="Shrouding The Heavens"></a></div>
+                    <div class="row2">
+                        <p>Shrouding The Heavens</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contance1 -->
+        <div class="contane1">
+
+            <div class="row">
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-legend-of-yang-chen.html"><img
+                                width="100%" height="100%" src="/assets/image/the-legend-of-yang-chen.jpg"
+                                alt="The Legend of Yang Chen"></a></div>
+                    <div class="row2">
+                        <p>The Legend of Yang Chen</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/the-magic-chef-of-ice-and-fire.html"><img
+                                width="100%" height="100%" src="/assets/image/the-magic-chef-of-ice-and-fire.jpg"
+                                alt="The Magic Chef of Ice and Fire"></a></div>
+                    <div class="row2">
+                        <p>The Magic Chef of Ice and Fire</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2022/11/stellar-transformation-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/Stellar-Transformation.jpg"
+                                alt="Stellar Transformation Season 5"></a></div>
+                    <div class="row2">
+                        <p>Stellar Transformation Season 5</p>
+                    </div>
+                    <div class="clip">completed</div>
+
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/12/swallowed-star-season-02.html"><img
+                                width="100%" height="100%" src="/assets/image/swallow-star-season-2.jpg"
+                                alt="Swallowed Star Season 02 Episode 27 to 85"></a></div>
+                    <div class="row2">
+                        <p>Swallowed Star Season 02 Episode 27 to 85</p>
+                    </div>
+                    <div class="clip">completed</div>
+                </div>
+
+
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/martial-master.html"><img width="100%"
+                                height="100%" src="/assets/image/Martial Master.jpg" alt="Martial Master"></a></div>
+                    <div class="row2">
+                        <p>Martial Master</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/ten-thousand-worlds.html"><img
+                                width="100%" height="100%" src="/assets/image/Ten Thousand Worlds.jpg"
+                                alt="Ten Thousand Worlds season 2"></a></div>
+                    <div class="row2">
+                        <p>Ten Thousand Worlds season 2</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/one-step-toward-freedom.html"><img
+                                width="100%" height="100%" src="/assets/image/Dubu Xiaoyao.jpg" alt="Dubu Xiaoyao"></a>
+                    </div>
+                    <div class="row2">
+                        <p>Dubu Xiaoyao</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/one-hundred-thousand-years-of-qi-refining.html"><img
+                                width="100%" height="100%"
+                                src="/assets/image/One Hundred Thousand Years of Qi Refining.jpg"
+                                alt="One Hundred Thousand Years of Qi Refining"></a></div>
+                    <div class="row2">
+                        <p>One Hundred Thousand Years of Qi Refining</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/jian-gu-season-01.html"><img width="100%"
+                                height="100%" src="/assets/image/Jiangu.jpeg" alt="Jiangu"></a></div>
+                    <div class="row2">
+                        <p>Jiangu</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/hundred-refining-soaring-record.html"><img
+                                width="100%" height="100%" src="/assets/image/Hundred refining soaring record.jpg"
+                                alt="Hundred refining soaring record"></a></div>
+                    <div class="row2">
+                        <p>Hundred refining soaring record</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/sword-saint-of-ten-realms.html"><img
+                                width="100%" height="100%" src="/assets/image/sword-saint-of-the-ten-realms.jpg"
+                                alt="Sword Saint of The Ten Realms"></a></div>
+                    <div class="row2">
+                        <p>Sword Saint of The Ten Realms</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/the-demon-hunter.html"><img width="100%"
+                                height="100%" src="/assets/image/the-demon-hunter-chang-yuan-tu.jpg"
+                                alt="The Demon Hunter"></a></div>
+                    <div class="row2">
+                        <p>The Demon Hunter</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/04/the-rich-god.html"><img width="100%"
+                                height="100%" src="/assets/image/The Rich God.jpg" alt="The Rich God"></a></div>
+                    <div class="row2">
+                        <p>The Rich God</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/legend-of-lotus-sword-fairy.html"><img
+                                width="100%" height="100%" src="/assets/image/legend-of-lotus-sword-fairy.jpg"
+                                alt="Legend Of Lotus Sword Fairy"></a></div>
+                    <div class="row2">
+                        <p>Legend Of Lotus Sword Fairy</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/the-westward-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/the-westward-season-5.jpg"
+                                alt="The Westward Season 5"></a></div>
+                    <div class="row2">
+                        <p>The Westward Season 5</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/tales-of-dark-river-anhe-zhuan.html"><img
+                                width="100%" height="100%" src="/assets/image/tales-of-dark-river-anhe-zhuan.jpg"
+                                alt="Tales Of Dark River"></a></div>
+                    <div class="row2">
+                        <p>Tales Of Dark River</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/peerless-martial-spirit.html"><img
+                                width="100%" height="100%" src="/assets/image/Peerless-Martial-Spirit.jpg"
+                                alt="Peerless Martial Spirit"></a></div>
+                    <div class="row2">
+                        <p>Peerless Martial Spirit</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/shrouding-the-heavens.html"><img
+                                width="100%" height="100%" src="/assets/image/Shrouding The Heavens.jpg"
+                                alt="Shrouding The Heavens"></a></div>
+                    <div class="row2">
+                        <p>Shrouding The Heavens</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-galaxy-emperor.html"><img
+                                width="100%" height="100%" src="/assets/image/the-galaxy-emperor.jpg"
+                                alt="The Galaxy Emperor"></a></div>
+                    <div class="row2">
+                        <p>The Galaxy Emperor</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 24.5%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/against-the-sky-supreme.html"><img
+                                width="100%" height="100%" src="/assets/image/Againts-the-Sky-Supreme.jpg"
+                                alt="Against the Sky Supreme"></a></div>
+                    <div class="row2">
+                        <p>Against the Sky Supreme</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+            </div>
+        </div>
+        <!-- contance 2 -->
+        <div class="contane2">
+
+            <div class="row">
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-legend-of-yang-chen.html"><img
+                                width="100%" height="100%" src="/assets/image/the-legend-of-yang-chen.jpg"
+                                alt="The Legend of Yang Chen"></a></div>
+                    <div class="row2">
+                        <p>The Legend of Yang Chen</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/the-magic-chef-of-ice-and-fire.html"><img
+                                width="100%" height="100%" src="/assets/image/the-magic-chef-of-ice-and-fire.jpg"
+                                alt="The Magic Chef of Ice and Fire"></a></div>
+                    <div class="row2">
+                        <p>The Magic Chef of Ice and Fire</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2022/11/stellar-transformation-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/Stellar-Transformation.jpg"
+                                alt="Stellar Transformation Season 5"></a></div>
+                    <div class="row2">
+                        <p>Stellar Transformation Season 5</p>
+                    </div>
+                    <div class="clip">completed</div>
+
+                </div>
+
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/martial-master.html"><img width="100%"
+                                height="100%" src="/assets/image/Martial Master.jpg" alt="Martial Master"></a></div>
+                    <div class="row2">
+                        <p>Martial Master</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/ten-thousand-worlds.html"><img
+                                width="100%" height="100%" src="/assets/image/Ten Thousand Worlds.jpg"
+                                alt="Ten Thousand Worlds season 2"></a></div>
+                    <div class="row2">
+                        <p>Ten Thousand Worlds season 2</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/03/one-step-toward-freedom.html"><img
+                                width="100%" height="100%" src="/assets/image/Dubu Xiaoyao.jpg" alt="Dubu Xiaoyao"></a>
+                    </div>
+                    <div class="row2">
+                        <p>Dubu Xiaoyao</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/jian-gu-season-01.html"><img width="100%"
+                                height="100%" src="/assets/image/Jiangu.jpeg" alt="Jiangu"></a></div>
+                    <div class="row2">
+                        <p>Jiangu</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/hundred-refining-soaring-record.html"><img
+                                width="100%" height="100%" src="/assets/image/Hundred refining soaring record.jpg"
+                                alt="Hundred refining soaring record"></a></div>
+                    <div class="row2">
+                        <p>Hundred refining soaring record</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/sword-saint-of-ten-realms.html"><img
+                                width="100%" height="100%" src="/assets/image/sword-saint-of-the-ten-realms.jpg"
+                                alt="Sword Saint of The Ten Realms"></a></div>
+                    <div class="row2">
+                        <p>Sword Saint of The Ten Realms</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+
+
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/04/the-rich-god.html"><img width="100%"
+                                height="100%" src="/assets/image/The Rich God.jpg" alt="The Rich God"></a></div>
+                    <div class="row2">
+                        <p>The Rich God</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/legend-of-lotus-sword-fairy.html"><img
+                                width="100%" height="100%" src="/assets/image/legend-of-lotus-sword-fairy.jpg"
+                                alt="Legend Of Lotus Sword Fairy"></a></div>
+                    <div class="row2">
+                        <p>Legend Of Lotus Sword Fairy</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/the-westward-season-5.html"><img
+                                width="100%" height="100%" src="/assets/image/the-westward-season-5.jpg"
+                                alt="The Westward Season 5"></a></div>
+                    <div class="row2">
+                        <p>The Westward Season 5</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/peerless-martial-spirit.html"><img
+                                width="100%" height="100%" src="/assets/image/Peerless-Martial-Spirit.jpg"
+                                alt="Peerless Martial Spirit"></a></div>
+                    <div class="row2">
+                        <p>Peerless Martial Spirit</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/05/shrouding-the-heavens.html"><img
+                                width="100%" height="100%" src="/assets/image/Shrouding The Heavens.jpg"
+                                alt="Shrouding The Heavens"></a></div>
+                    <div class="row2">
+                        <p>Shrouding The Heavens</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/07/the-galaxy-emperor.html"><img
+                                width="100%" height="100%" src="/assets/image/the-galaxy-emperor.jpg"
+                                alt="The Galaxy Emperor"></a></div>
+                    <div class="row2">
+                        <p>The Galaxy Emperor</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+
+
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2022/11/against-the-sky-supreme.html"><img
+                                width="100%" height="100%" src="/assets/image/Againts-the-Sky-Supreme.jpg"
+                                alt="Against the Sky Supreme"></a></div>
+                    <div class="row2">
+                        <p>Against the Sky Supreme</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/08/tales-of-dark-river-anhe-zhuan.html"><img
+                                width="100%" height="100%" src="/assets/image/tales-of-dark-river-anhe-zhuan.jpg"
+                                alt="Tales Of Dark River"></a></div>
+                    <div class="row2">
+                        <p>Tales Of Dark River</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a href="https://www.anime4i.com/2023/06/the-demon-hunter.html"><img width="100%"
+                                height="100%" src="/assets/image/the-demon-hunter-chang-yuan-tu.jpg"
+                                alt="The Demon Hunter"></a></div>
+                    <div class="row2">
+                        <p>The Demon Hunter</p>
+                    </div>
+                    <div class="clip">Completed</div>
+                </div>
+
+                <div style="width: 32.75%;" class="col">
+                    <div class="row1"><a
+                            href="https://www.anime4i.com/2023/03/one-hundred-thousand-years-of-qi-refining.html"><img
+                                width="100%" height="100%"
+                                src="/assets/image/One Hundred Thousand Years of Qi Refining.jpg"
+                                alt="One Hundred Thousand Years of Qi Refining"></a></div>
+                    <div class="row2">
+                        <p>One Hundred Thousand Years of Qi Refining</p>
+                    </div>
+                    <div style="display: none;" class="clip">Ep 27</div>
+                </div>
+
+            </div>
+            <div style="width: 32.75%;" class="col">
+                <div class="row1"><a href="https://www.anime4i.com/2022/12/swallowed-star-season-02.html"><img
+                            width="100%" height="100%" src="/assets/image/swallow-star-season-2.jpg"
+                            alt="Swallowed Star Season 02 Episode 27 to 85"></a></div>
+                <div class="row2">
+                    <p>Swallowed Star Season 02 Episode 27 to 85</p>
+                </div>
+                <div class="clip">completed</div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <!-- block fulter -->
+    <div class="fulter">
+        <div class="fulter-left">
+            <p>Copyright © 2024 Anime4i. All Rights Reserved</p>
+            <img style="margin-top: 20px;" src="/assets/image/dmca_protected_sml_120ac.png" alt="">
+            <p style="margin-top: 20px;">Disclaimer: This site does not store any files on its server. All contents are
+                provided by non-affiliated third parties.</p>
+        </div>
+        <div class="fulter-center">
+            <h3>Help</h3><br>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Contact US</a></li>
+            </ul>
+        </div>
+        <div class="fulter-right">
+            <h3>Links</h3><br>
+            <ul>
+                <li><a href="/src/HTML/A-ZLists.html">A-Z Lists</a></li>
+                <li><a href="/src/HTML/Anime3D.html">Chanese Anime</a></li>
+                <li><a href="">Hot series</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="/src/JS/index.js"></script>
+</body>
+
+</html>
