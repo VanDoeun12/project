@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime4i</title>
+    <!-- <link rel="stylesheet" href="/src/CSS/index.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- Navbar -->
+
+           <!-- Using Navbar -->
+     <div class="navbar navbar-expand-lg bg-dark navbar-dark ">
+        <div class="container ">
+            <a href="#" class="navbar-brand"><img width="120px" height="60px" src="/assets/image/anime4i.png" alt=""></a>
+           <!-- buttom -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-row justify-content-around" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./src/HTML/A-ZLists.html" class="nav-link">A-Z</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="./src/HTML/Anime3D.html" class="nav-link">Anime</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Schedule</a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <form >
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id= "search-item"placeholder="Search..." onkeyup="search()">
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- Content -->
+     <div class="container">
+        <div class="row gy-1 gx-1 mt-5 " id="anime-lists">
+
+            <div class="col-sm-6 col-md-4 col-lg-2  ">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=yh2TVK4E5BE" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/A Sheep In Wolf’s Clothing.jpg" alt="">
+                 <p>A Sheep In Wolf's Clothing</p>
+                 
+                 
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=CNZUcoXmVnM&t=706s" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Battle-Through-The-Heavens.jpg" alt="">
+                 <p>Battle Through The Heavens</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=pdJCRCTG4-s" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Carpenter-Assassin-Jinyi-Shen-Jiag.jpg" alt="">
+                 <p>Carpenter Assassin Jinyi Shen Jiag</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=1FuzSffO3ag&list=PLxIumIYapv_uXFPKsZTqDZsYvtBZQ1UHj" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Dubu Xiaoyao.jpg" alt="">
+                 <p>Dubu Xiaoyao</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://anime4i.com/watch-first-kiss-ni-de-rensheng-shi-wo-lai-chi-le/ep-1-sv1.html#" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/First Kiss.jpg" alt="">
+                 <p>First Kiss</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=5v5J3wMcvRk&list=PLOUUm4xsoaeB3Q1t_SnrgdX0mLoVhb_0g" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Glorious Revenge of Ye Feng.jpg" alt="">
+                 <p>Glorious Revenge of Ye Feng</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=xJ_5Xd4baBg&list=PLrYKPj7wbjfhGfDBYZKmGvcjGVnUw2yoI" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Heaven Official’s Blessing Season 2.jpg" alt="">
+                 <p>Heaven Official’s Blessing Season 2</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=kFWTdkKOoSQ" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/I Picked Up An Attribute Episode 16 English Sub.jpg" alt="">
+                 <p>I Picked Up An Attribute</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=hHf9BAiSpnw&t=18510s" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Jade-Dynasty.jpg" alt="">
+                 <p>Jade Dynasty</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=yRLW5WlAwHY" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Legend of Xianwu.jpg" alt="">
+                 <p>Legend of Xianwu</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=nMBf9Vyu1pw&list=PLYsnd_LcCqskgUiZ34TLm5opnrvyhCsiQ" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Martial Master.jpg" alt="">
+                 <p>Martial Master</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=tBZXVs9nU3Y&list=PLT5WQr7c_IDV_gVt4mJHzUCdNjHViy7BG" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/One Hundred Thousand Years of Qi Refining.jpg" alt="">
+                 <p>One Hundred Thousand Years of Qi Refining</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=UbiYo_Stwgg&list=PL4lbC5qAwGxAJju5cNWFAK4Bziy_pkDOl" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Perfect-World.jpg" alt="">
+                 <p>Perfect World</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.dailymotion.com/video/x8d3ngl" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/quanzhi-fashi-season-06.jpeg" alt="">
+                 <p>Quanzhi Fashi</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=uNQ5EIP2YNg" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Renegade-Immortal.jpg" alt="">
+                 <p>Renegade Immortal</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=AtXBtbvNq2c" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Soul-Land.jpg" alt="">
+                 <p>Soul Land</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=2KLbV3my93c" class="btn bg-primary text-white">view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/Ten Thousand Worlds.jpg" alt="">
+                 <p>Ten Thousand Worlds</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="project-box">
+                <div class="box-cover">
+                    <a href="https://www.youtube.com/watch?v=PNPSz9KNlrI" class="btn bg-primary text-white" >view</a>
+                </div>
+                <!-- have image -->
+                 <img src="/assets/image/xyrin-empire.jpg" alt="">
+                 <p>Xyrin Empire</p>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+        </div>
+     </div>
+
+
+
+    
+
+    <!-- footer -->
+    <footer class="footer mt-1">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Copyright © 2024 Anime4i. All Rights Reserved</h4>
+                    <img style="margin-top: 20px;" src="/assets/image/dmca_protected_sml_120ac.png" alt="">
+                    <h5>This site does not store any files on its server. All contents are
+                        provided by non-affiliated third parties.</h5>
+                </div>
+                <div class="footer-col">
+                    <h4 style="left: 25px;" >Help</h4>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Contact US</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 style="left: 25px;">Links</h4>
+                    <ul>
+                        <li><a href="/src/HTML/A-ZLists.html">A-Z Lists</a></li>
+                        <li><a href="/src/HTML/Anime3D.html">Chanese Anime</a></li>
+                        <li><a href="">Hot series</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+            <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- End footer -->
+
+
+
+
+    <script src="/src/JS/index.js"></script>
+</body>
+
+</html>
