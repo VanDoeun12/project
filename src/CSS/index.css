@@ -67,6 +67,8 @@
     color: black;
     background-color: white;
     font-size: 15px;
+    z-index: 5;
+    font-weight: bold;
 }
 
 /* footer */
