@@ -44,7 +44,7 @@ function SelectA() {
 
     // Reset the background color of all buttons before applying the new color
     for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -69,7 +69,7 @@ function SelectB() {
     // Reset the background color of all buttons before applying the new color
     for (var j = 0; j < allButtons.length; j++) {
        
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -94,7 +94,7 @@ function SelectC() {
     
     // Reset the background color of all buttons before applying the new color
     for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -118,7 +118,7 @@ function SelectD() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -142,7 +142,7 @@ function SelectE() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -167,7 +167,7 @@ function SelectF() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -192,7 +192,7 @@ function SelectG() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -216,7 +216,7 @@ function SelectH() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -240,7 +240,7 @@ function SelectI() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -264,7 +264,7 @@ function SelectJ() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -288,7 +288,7 @@ function SelectK() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -312,7 +312,7 @@ function SelectL() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -336,7 +336,7 @@ function SelectM() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -360,7 +360,7 @@ function SelectN() {
     }
      // Reset the background color of all buttons before applying the new color
      for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -384,7 +384,7 @@ function SelectO() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -408,7 +408,7 @@ function SelectP() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -432,7 +432,7 @@ function SelectQ() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -456,7 +456,7 @@ function SelectR() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -480,7 +480,7 @@ function SelectS() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -504,7 +504,7 @@ function SelectT() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -528,7 +528,7 @@ function SelectU() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -552,7 +552,7 @@ function SelectV() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -576,7 +576,7 @@ function SelectW() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -600,7 +600,7 @@ function SelectX() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -624,7 +624,7 @@ function SelectY() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -648,7 +648,7 @@ function SelectZ() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
@@ -669,7 +669,7 @@ function SelectAll() {
     }
       // Reset the background color of all buttons before applying the new color
       for (var j = 0; j < allButtons.length; j++) {
-        allButtons[j].style.backgroundColor = "red"; // Reset background color
+        allButtons[j].style.backgroundColor = "blue"; // Reset background color
     }
 
     // Change the background color of the clicked button
